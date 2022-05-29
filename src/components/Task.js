@@ -6,11 +6,11 @@ const Task = () => {
         <span>Task titles</span>
         <div>
             <button className='btn-delete task-btn'>
-                <i className='fas fa-trash-alt'></i>
+                <i className='fas fa-trash-alt'>trash</i>
 
             </button>
             <button className='btn-edit task-btn'>
-                <i className='fas fa-pen'></i>
+                <i className='fas fa-pen'>pen</i>
 
             </button>
         </div>

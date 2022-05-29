@@ -8,9 +8,13 @@ function App() {
     
     return (
         <TaskListContextProvider>
-        <div>
+        <div className='container'>
+        <div className='app-wrapper'>
+            <div className='main'>
             <TaskList />
+            </div>
         </div>
+     </div>
         </TaskListContextProvider>
     );
 };
