@@ -18,7 +18,7 @@ const TaskForm = () => {
           <input
           onChange={handleChange}
           value={addTask}
-          type="text "
+          type="text"
           className="text-input"
           placeholder="Add a task"/>
           <div className='buttons'>
