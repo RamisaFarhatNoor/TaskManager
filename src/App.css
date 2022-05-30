@@ -5,16 +5,20 @@
 * {
   margin: 0;
   padding: 0;
+ 
 }
 
 .container {
-  background: linear-gradient(100deg, rgb(182, 40, 111) 50%, #ac2066 0);
+  background: linear-gradient(100deg, rgb(113, 40, 182) 50%, #ac2066 0);
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  
+
 }
+
 
 .app-wrapper {
   background-color: #292f38;
@@ -41,6 +45,7 @@
   align-items: space-between;
   margin-bottom: 50px;
   width: 100%;
+  
 }
 
 .form {
@@ -49,6 +54,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
+  color: rgb(45, 40, 40);
 }
 
 .list {
@@ -57,6 +63,7 @@
   max-height: 300px;
   overflow: hidden;
   overflow-y: auto;
+  color: #ccc;
 }
 
 /* width */
@@ -72,7 +79,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #444;
+  background: rgb(199, 188, 188);
   border-radius: 10px;
 }
 
@@ -84,11 +91,11 @@
   font-family: 'Josefin Sans', serif;
   font-size: 15px;
   color: #ccc;
-  background-color: #1d222b;
+  background-color: #3c4351;
   border: 1px solid #444;
   outline: none;
   border-radius: 20px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 2px rgba(61, 60, 60, 0.3);
 }
 
 .buttons {
@@ -107,7 +114,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   border-radius: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px rgba(91, 86, 86, 0.3);
   outline: none;
   cursor: pointer;
 }
@@ -128,18 +135,24 @@
   background-color: transparent;
   border: none;
   outline: none;
+  float: right;
 }
 
 .btn-delete i {
   font-size: 16px;
   color: #bbb;
   margin-right: 20px;
+  
+
+ 
 }
 
 .btn-edit i {
   font-size: 16px;
   color: #bbb;
   margin-right: 20px;
+ 
+ 
 }
 
 .clear-btn {
